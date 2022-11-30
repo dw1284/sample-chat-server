@@ -1,0 +1,19 @@
+{
+  "tier": "development",
+  "development": {
+    "logConfig": {
+      "writeToConsole": true,
+      "writeToFile": true,
+      "filepath": "./app.log",
+      "fileMaxSize": 10240
+    }
+  },
+  "production": {
+    "logConfig": {
+      "writeToConsole": false,
+      "writeToFile": true,
+      "filepath": "./app.log",
+      "fileMaxSize": 10240
+    }
+  }
+}

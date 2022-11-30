@@ -1,9 +1,7 @@
 // Dependent modules
 const app = require('express')();
 const http = require('http').Server(app);
-const socket = require('./lib/socket')(http);
 const tier = require('config').get('tier');
-const config = require('config').get(tier);
 
 // Default route (if no route provided in url)
 app.use('/', function (req, res) {

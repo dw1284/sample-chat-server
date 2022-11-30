@@ -1,7 +1,7 @@
 {
-  "tier": "development",
+  "tier": "production",
   "logConfig": {
-    "writeToConsole": true,
+    "writeToConsole": false,
     "writeToFile": true,
     "filepath": "./app.log",
     "fileMaxSize": 10240
